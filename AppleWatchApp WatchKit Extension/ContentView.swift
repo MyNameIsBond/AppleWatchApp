@@ -9,8 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        List(messages) { m in
+            VStack(alignment: .leading) {
+                NavigationLink(destination: dest()) {
+                    VStack(alignment: .leading) {
+                        Text(m.name)
+                        Text(m.message).foregroundColor(Color.gray)
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+struct dest: View {
+    var body: some View {
+        Text("d")
     }
 }
 

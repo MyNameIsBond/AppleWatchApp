@@ -23,6 +23,7 @@
 		EAE8A4C32528917500FC1C5C /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8A4C22528917500FC1C5C /* ComplicationController.swift */; };
 		EAE8A4C52528917700FC1C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE8A4C42528917700FC1C5C /* Assets.xcassets */; };
 		EAE8A4C82528917700FC1C5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE8A4C72528917700FC1C5C /* Preview Assets.xcassets */; };
+		EAE8A4E42528980B00FC1C5C /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8A4E32528980B00FC1C5C /* Messages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		EAE8A4C72528917700FC1C5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EAE8A4C92528917700FC1C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAE8A4CA2528917700FC1C5C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		EAE8A4E32528980B00FC1C5C /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 			children = (
 				EAE8A4BA2528917500FC1C5C /* AppleWatchAppApp.swift */,
 				EAE8A4BC2528917500FC1C5C /* ContentView.swift */,
+				EAE8A4E32528980B00FC1C5C /* Messages.swift */,
 				EAE8A4BE2528917500FC1C5C /* NotificationController.swift */,
 				EAE8A4C02528917500FC1C5C /* NotificationView.swift */,
 				EAE8A4C22528917500FC1C5C /* ComplicationController.swift */,
@@ -452,6 +455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAE8A4BF2528917500FC1C5C /* NotificationController.swift in Sources */,
+				EAE8A4E42528980B00FC1C5C /* Messages.swift in Sources */,
 				EAE8A4BD2528917500FC1C5C /* ContentView.swift in Sources */,
 				EAE8A4C32528917500FC1C5C /* ComplicationController.swift in Sources */,
 				EAE8A4BB2528917500FC1C5C /* AppleWatchAppApp.swift in Sources */,
