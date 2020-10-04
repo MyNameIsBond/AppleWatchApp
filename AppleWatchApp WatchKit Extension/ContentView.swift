@@ -13,7 +13,16 @@ struct ContentView: View {
             VStack(alignment: .leading) {
                 NavigationLink(destination: dest()) {
                     VStack(alignment: .leading) {
-                        Text(m.name)
+                        HStack {
+                            Image(m.photo)
+                                .resizable()
+                                .frame(width: 25, height: 25)
+                                .aspectRatio(contentMode: .fill)
+                                .clipShape(Circle())
+                                
+                            Text(m.name)
+                        }
+                        
                         Text(m.message).foregroundColor(Color.gray)
                     }
                     
