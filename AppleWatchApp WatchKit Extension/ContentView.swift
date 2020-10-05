@@ -34,6 +34,7 @@ struct ContentView: View {
 struct dest: View {
     var body: some View {
         Text("d")
+        Text("d")
     }
 }
 
